@@ -25,3 +25,8 @@ We have no delays, as soon as a token is released you will be able to trade it u
 **Launchpads**
 
 - [ ] Pump.fun
+
+## SDK
+
+- [SDK GitHub](https://github.com/cryptoscan-pro/scanner-sdk)
+- [SDK NPM](https://npmjs.com/@cryptoscan/scanner-sdk)
