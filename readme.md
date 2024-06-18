@@ -1,5 +1,4 @@
 ﻿# Fast Dex Swap API by Cryptoscan
-
 Welcome to Cryptoscan for Developers
 
 ## What is Cryptoscan?
@@ -10,7 +9,7 @@ We provide our API for Developers that want to build their own crypto Swap site 
 
 ## Documentation
 
-The documentation is available at https://docs.cryptoscan.pro.
+The documentation is available at [https://docs.cryptoscan.pro](https://docs.cryptoscan.pro).
 
 For more information about Crypto Scan [click here](https://docs.cryptoscan.pro/)
 
