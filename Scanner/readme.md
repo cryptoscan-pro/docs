@@ -1,2 +1,0 @@
-# Cryptoscan - Scan API
-
