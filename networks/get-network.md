@@ -28,9 +28,25 @@ https://api.cryptoscan.pro/v1/networks/{networkId}
     */
   exchanges?: {
     [exchangeName]: {
-      isEnabled: boolean;
-      enabledAt: Date;
-      disabledAt: Date;
+      coin: string;
+      id: number;
+      name: string;
+      fullName: string;
+      aliases: string[];
+      deposit: {
+        isEnabled: boolean;
+        fee: number;
+        percentageFee: number;
+        enabledAt: Date;
+        disabledAt: Date;
+      };
+      withdraw: {
+        isEnabled: boolean;
+        fee: number;
+        percentageFee: number;
+        enabledAt: Date;
+        disabledAt: Date;
+      }
     }
   }
 }
