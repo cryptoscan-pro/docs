@@ -17,15 +17,18 @@ https://api.cryptoscan.pro/v1/networks/{networkId}
 
 ## Response
 
+`id` - Network ID
+`name` - Network name
+`fullName` - Network full name
+`aliases` - Network aliases
+`exchanges` - Exchanges statuses, includes with `coin` param
+
 ```
 {
   id: number;
   name: string;
   fullName: string;
   aliases: string[];
-  /**
-    * Centralized exchanges statuses, includes with `coin` param
-    */
   exchanges?: {
     [exchangeName]: {
       coin: string;
