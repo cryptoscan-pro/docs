@@ -6,26 +6,21 @@ https://api.cryptoscan.pro/v1/networks/{networkId}
 
 ## Request
 
+- `coin` - Coin name
+
 ```
 {
-  /**
-    * Coin name, ticker or contract
-    */
   coin?: string;
 }
 ```
 
 ## Response
 
-`id` - Network ID
-
-`name` - Network name
-
-`fullName` - Network full name
-
-`aliases` - Network aliases
-
-`exchanges` - Exchanges statuses, includes with `coin` param
+- `id` - Network ID
+- `name` - Network name
+- `fullName` - Network full name
+- `aliases` - Network aliases
+- `exchanges` - Exchanges statuses, includes with `coin` param
 
 ```
 {
