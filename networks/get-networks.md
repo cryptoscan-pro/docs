@@ -8,10 +8,10 @@ https://api.cryptoscan.pro/v1/networks
 
 ```
 {
-  "id": number;
-  "name": string;
-  "fullName": string;
-  "aliases": string[];
+  id: number;
+  name: string;
+  fullName: string;
+  aliases: string[];
 }
 ```
 
